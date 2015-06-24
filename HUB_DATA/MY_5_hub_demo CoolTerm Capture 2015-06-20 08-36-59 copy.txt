@@ -1,0 +1,472 @@
+=============================
+BELKIN 4-PORT HUB
+Start
+
+
+41
+--
+
+Device descriptor: 
+Descriptor Length:	12
+Descriptor type:	01
+USB version:		0200
+Device class:		09
+Device Subclass:	00
+Device Protocol:	00
+Max.packet size:	40
+Vendor  ID:		050D
+		050d	Belkin Components [hub]	
+Product ID:		0304
+Revision ID:		0702
+Mfg.string index:	00
+Prod.string index:	00
+Serial number index:	00
+Number of conf.:	01
+
+Configuration descriptor:
+Total length:		0019
+Num.intf:		01
+Conf.value:		01
+Conf.string:		00
+Attr.:			E0
+Max.pwr:		32
+
+Interface descriptor:
+Intf.number:		00
+Alt.:			00
+Endpoints:		01
+Intf. Class:		09
+Intf. Subclass:		00
+Intf. Protocol:		00
+Intf.string:		00
+
+Endpoint descriptor:
+Endpoint address:	81		IN 1
+Attr.:			03		Interrupt
+Max.pkt size:		0001
+Polling interval:	FF
+
+
+Addr:41(1.0.1)
+
+==============================
+C-THRU AXIS 49
+Start
+
+
+01
+--
+
+Device descriptor: 
+Descriptor Length:	12
+Descriptor type:	01
+USB version:		0200
+Device class:		00
+Device Subclass:	00
+Device Protocol:	00
+Max.packet size:	20
+Vendor  ID:		1D17
+		1d17	C-Thru Music Ltd.  Axis 49		
+Product ID:		0001
+Revision ID:		0001
+Mfg.string index:	01
+Prod.string index:	02
+Serial number index:	03
+Number of conf.:	01
+
+Configuration descriptor:
+Total length:		0053
+Num.intf:		01
+Conf.value:		01
+Conf.string:		00
+Attr.:			80
+Max.pwr:		32
+
+Interface descriptor:
+Intf.number:		00
+Alt.:			00
+Endpoints:		02
+Intf. Class:		01
+Intf. Subclass:		03
+Intf. Protocol:		00
+Intf.string:		00
+Unknown descriptor:
+Length:		07
+Type:		24
+Contents:	01000141000624
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	020101000624
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	020202000924
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	030103010201000924
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	030204010101000905
+
+Endpoint descriptor:
+Endpoint address:	01
+Attr.:			02
+Max.pkt size:		0040
+Polling interval:	00
+Unknown descriptor:
+Length:		05
+Type:		25
+Contents:	0101010905
+
+Endpoint descriptor:
+Endpoint address:	81
+Attr.:			02
+Max.pkt size:		0040
+Polling interval:	00
+Unknown descriptor:
+Length:		05
+Type:		25
+Contents:	0101030000
+
+
+Addr:1(0.0.1)
+==============================
+C-THRU AXIS 49
+Start
+
+
+01
+--
+
+Device descriptor: 
+Descriptor Length:	12
+Descriptor type:	01
+USB version:		0200
+Device class:		00
+Device Subclass:	00
+Device Protocol:	00
+Max.packet size:	20
+Vendor  ID:		1D17
+		1d17	C-Thru Music Ltd.  Axis 49
+Product ID:		0001
+Revision ID:		0001
+Mfg.string index:	01
+Prod.string index:	02
+Serial number index:	03
+Number of conf.:	01
+
+Configuration descriptor:
+Total length:		0053
+Num.intf:		01
+Conf.value:		01
+Conf.string:		00
+Attr.:			80
+Max.pwr:		32
+
+Interface descriptor:
+Intf.number:		00
+Alt.:			00
+Endpoints:		02
+Intf. Class:		01
+Intf. Subclass:		03
+Intf. Protocol:		00
+Intf.string:		00
+Unknown descriptor:
+Length:		07
+Type:		24
+Contents:	01000141000624
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	020101000624
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	020202000924
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	030103010201000924
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	030204010101000905
+
+Endpoint descriptor:
+Endpoint address:	01
+Attr.:			02
+Max.pkt size:		0040
+Polling interval:	00
+Unknown descriptor:
+Length:		05
+Type:		25
+Contents:	0101010905
+
+Endpoint descriptor:
+Endpoint address:	81
+Attr.:			02
+Max.pkt size:		0040
+Polling interval:	00
+Unknown descriptor:
+Length:		05
+Type:		25
+Contents:	0101030000
+
+
+Addr:1(0.0.1)
+===============================
+EM-U X-MIDS 1x1
+Start
+
+
+01
+--
+
+Device descriptor: 
+Descriptor Length:	12
+Descriptor type:	01
+USB version:		0110
+Device class:		00
+Device Subclass:	00
+Device Protocol:	00
+Max.packet size:	10
+Vendor  ID:		041E
+		041e	Creative Technology, Ltd [e-mu Xmidi 1x1]
+Product ID:		3F0E
+Revision ID:		0070
+Mfg.string index:	01
+Prod.string index:	02
+Serial number index:	03
+Number of conf.:	01
+
+Configuration descriptor:
+Total length:		0065
+Num.intf:		02
+Conf.value:		01
+Conf.string:		00
+Attr.:			A0
+Max.pwr:		32
+
+Interface descriptor:
+Intf.number:		00
+Alt.:			00
+Endpoints:		00
+Intf. Class:		01
+Intf. Subclass:		01
+Intf. Protocol:		00
+Intf.string:		00
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	010001090001010904
+
+Interface descriptor:
+Intf.number:		01
+Alt.:			00
+Endpoints:		02
+Intf. Class:		01
+Intf. Subclass:		03
+Intf. Protocol:		00
+Intf.string:		00
+Unknown descriptor:
+Length:		07
+Type:		24
+Contents:	01000141000624
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	020101040624
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	020202000924
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	030103010201050924
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	030204010101000905
+
+Endpoint descriptor:
+Endpoint address:	01
+Attr.:			02
+Max.pkt size:		0010
+Polling interval:	00
+Unknown descriptor:
+Length:		05
+Type:		25
+Contents:	0101010905
+
+Endpoint descriptor:
+Endpoint address:	81
+Attr.:			02
+Max.pkt size:		0010
+Polling interval:	00
+Unknown descriptor:
+Length:		05
+Type:		25
+Contents:	0101032106
+
+
+Addr:1(0.0.1)
+
+==============================
+ARDUINO DUEMILANOVE (2009)
+Start
+
+
+01
+--
+
+Device descriptor: 
+Descriptor Length:	12
+Descriptor type:	01
+USB version:		0200
+Device class:		00
+Device Subclass:	00
+Device Protocol:	00
+Max.packet size:	08
+Vendor  ID:		0403
+		0403	Future Technology Devices International, Ltd
+			duemilanove?
+Product ID:		6001
+Revision ID:		0600
+Mfg.string index:	01
+Prod.string index:	02
+Serial number index:	03
+Number of conf.:	01
+
+Configuration descriptor:
+Total length:		0020
+Num.intf:		01
+Conf.value:		01
+Conf.string:		00
+Attr.:			A0
+Max.pwr:		2D
+
+Interface descriptor:
+Intf.number:		00
+Alt.:			00
+Endpoints:		02
+Intf. Class:		FF
+Intf. Subclass:		FF
+Intf. Protocol:		FF
+Intf.string:		02
+
+Endpoint descriptor:
+Endpoint address:	81
+Attr.:			02
+Max.pkt size:		0040
+Polling interval:	00
+
+Endpoint descriptor:
+Endpoint address:	02
+Attr.:			02
+Max.pkt size:		0040
+Polling interval:	00
+
+
+Addr:1(0.0.1)
+=============================
+GARAGE KEY GROOVE
+Start
+
+
+01
+--
+
+Device descriptor: 
+Descriptor Length:	12
+Descriptor type:	01
+USB version:		0110
+Device class:		00
+Device Subclass:	00
+Device Protocol:	00
+Max.packet size:	40
+Vendor  ID:		0218	
+		[0218	Hangzhou Worlde [MidiTech GarageKey Groove]
+Product ID:		0303
+Revision ID:		0000
+Mfg.string index:	01
+Prod.string index:	02
+Serial number index:	00
+Number of conf.:	01
+
+Configuration descriptor:
+Total length:		0065
+Num.intf:		02
+Conf.value:		01
+Conf.string:		03
+Attr.:			C0
+Max.pwr:		32
+
+Interface descriptor:
+Intf.number:		00
+Alt.:			00
+Endpoints:		00
+Intf. Class:		01
+Intf. Subclass:		01
+Intf. Protocol:		00
+Intf.string:		00
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	010001090001010904
+
+Interface descriptor:
+Intf.number:		01
+Alt.:			00
+Endpoints:		02
+Intf. Class:		01
+Intf. Subclass:		03
+Intf. Protocol:		00
+Intf.string:		00
+Unknown descriptor:
+Length:		07
+Type:		24
+Contents:	01000141000624
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	020101000624
+Unknown descriptor:
+Length:		06
+Type:		24
+Contents:	020202000924
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	030103010201000924
+Unknown descriptor:
+Length:		09
+Type:		24
+Contents:	030204010101000905
+
+Endpoint descriptor:
+Endpoint address:	81
+Attr.:			02
+Max.pkt size:		0040
+Polling interval:	00
+Unknown descriptor:
+Length:		05
+Type:		25
+Contents:	0101030905
+
+Endpoint descriptor:
+Endpoint address:	02
+Attr.:			02
+Max.pkt size:		0040
+Polling interval:	00
+Unknown descriptor:
+Length:		05
+Type:		25
+Contents:	0101012106
+
+
+Addr:1(0.0.1)
+
