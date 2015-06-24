@@ -1,0 +1,113 @@
+http://felis.github.io/USB_Host_Shield_2.0/_usb_8cpp_source.html#l00424
+
+
+HUB DEMO ANALYSIS
+
+#include <usbhub.h>
+	#include <spi4teensy3.h>
+	#include <SPI.h>
+#include "pgmstrings.h"
+
+// SETUP 
+USB     Usb;
+USBHub  Hub1(&Usb);
+USBHub  Hub2(&Usb);
+USBHub  Hub3(&Usb);
+USBHub  Hub4(&Usb);
+
+while (!Serial); // Wait for serial port to connect   Serial.println("Start");
+if (Usb.Init() == -1) Serial.println("OSC did not start.");
+
+// LOOP
+
+  Usb.Task();
+    if ( Usb.getUsbTaskState() == USB_STATE_RUNNING )
+      {
+      Usb.ForEachUsbDevice(&PrintAllDescriptors);
+      Usb.ForEachUsbDevice(&PrintAllAddresses);
+     }	
+	
+===========================
+USB Library Calls
+
+423 /* USB main task. Performs enumeration/cleanup */
+  424 void USB::Task(void) //USB state machine
+
+
+/* Control transfer. Sets address, endpoint, fills control packet with necessary data, dispatches control packet, and initiates bulk IN transfer,   */
+  121 /* depending on request. Actual requests are defined as inlines                                                                                      */
+  122 /* return codes:                */
+  123 /* 	00       =   success         */
+  125 /* 	01-0f    =   non-zero HRSLT  */
+
+  126 uint8_t USB::ctrlReq(
+	uint8_t 	addr, 
+	uint8_t 	ep, 
+	uint8_t 	bmReqType, 
+	uint8_t 	bRequest, 
+	uint8_t 	wValLo, 
+	uint8_t 	wValHi,
+              uint16_t 	wInd, 
+	uint16_t 	total, 
+	uint16_t 	nbytes, 
+	uint8_t	*dataptr, 
+	USBReadParser *p)
+
+
+
+/* IN transfer to arbitrary endpoint. Transfers 'nbytes' bytes to memory area pointed by 'data'
+Assumes PERADDR is set. Handles multiple packets if necessary. Keep sending INs and writes data  */  
+       /* return codes:    
+	0 	if no errors.            */ 
+	01-0f 	is relayed from dispatchPkt() 
+	f0 	means RCVDAVIRQ error     
+	f0 	means RCVDAVIRQ error; 
+	fe 	USB xfer timeout                                          
+
+  206  uint8_t USB::inTransfer(
+	uint8_t 	addr, 
+	uint8_t 	ep, 
+	uint16_t 	*nbytesptr, 
+	uint8_t	*data)
+  
+
+
+/* OUT transfer to arbitrary endpoint.  Transfers 'nbytes' bytes. 
+
+*/Handles multiple packets if necessary.
+  289 /* Handles NAK bug per Maxim Application Note 4000 for single buffer transfer   */
+      RETURN CODES
+	rcode 0 i	f no errors. 
+	rcode 01-0f 	is relayed from HRSL 
+
+
+ 292  uint8_t USB::outTransfer(u
+	int8_t 	addr, 
+	uint8_t 	ep, 	
+	uint16_t 	nbytes, 
+	uint8_t	*data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
